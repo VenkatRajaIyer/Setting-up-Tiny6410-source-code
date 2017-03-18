@@ -1,9 +1,10 @@
 # Installing the tiny6410/mini6410_Samsung source code
 
 1) Download the files present in the location (If you download teh zip file, have them unzipped)
+    https://github.com/VenkatRajaIyer/Setting-up-Tiny6410-source-code/tree/master/mini6410_Samsung-master
     
 2) You can copy those packages into /home/$MACHINE_NAME/mini6410/ 
-	(If you are using the UI, you don't have to create the folder with your machine name. Simply create the folder mini6410 under home directory)
+    (If you are using the UI, you don't have to create the folder with your machine name. Simply create the folder mini6410 under home directory)
 
 3) Open the terminal and switch to the super user. You would have to type the administrator's password if prompted
     Type in 'sudo su'
@@ -12,7 +13,7 @@
     tar -xvzf arm-linux-gcc-4.5.1-v6-vfp-20101103.tgz -C /
     mkdir /opt/FriendlyARM/mini6410
     mv /opt/FriendlyARM/toolschain /opt/FriendlyARM/mini6410
-    tar -xvzf linux-2.6.38-20110718.tar.gz -C /opt/FriendlyARM/mini6410/                                                                                                             installed)
+    tar -xvzf linux-2.6.38-20110718.tar.gz -C /opt/FriendlyARM/mini6410/
 
 4) Type in 'gedit ~/.bashrc &' in the terminal
  
