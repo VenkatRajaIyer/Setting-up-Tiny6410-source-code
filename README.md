@@ -22,7 +22,7 @@ Steps to download and set up Tiny6410's source code in Linux
     export PATH=$PATH:/opt/FriendlyARM/mini6410/toolschain/4.5.1/bin
     You might then have to close the terminal and reopen it.
     
-5) Go to /home/$MACHINE_NAME/mini6410/mini6410_Samsung-master and type in the follwoing	
+5) Go to /home/$MACHINE_NAME/mini6410/mini6410_Samsung-master and type in the follwing	<br>
 	cp config.txt /opt/FriendlyARM/mini6410/linux-2.6.38/	<br>
 	cd /opt/FriendlyARM/mini6410/linux-2.6.38/	<br>
 	mv config.txt .config	<br>	
