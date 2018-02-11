@@ -40,5 +40,5 @@ Steps to download and set up Tiny6410's source code in Linux
     tar -xvzf /home/$MACHINE_NAME/mini6410/examples-mini6410-20110104.tgz -C /opt/FriendlyARM/mini6410/linux-2.6.38/
     
 8) To view the kernel configuration file, navigate to the following location
-    cd /opt/FriendlyARM/mini6410/linux-2.6.38/
+    cd /opt/FriendlyARM/mini6410/linux-2.6.38/<br>
     Type in 'make menuconfig'
