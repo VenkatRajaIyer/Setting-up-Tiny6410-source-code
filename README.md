@@ -42,5 +42,3 @@ Steps to download and set up Tiny6410's source code in Linux
 8) To view the kernel configuration file, navigate to the following location
     cd /opt/FriendlyARM/mini6410/linux-2.6.38/
     Type in 'make menuconfig'
-    
-Reference: https://github.com/dhruvkakadiya/mini6410_Samsung.git
