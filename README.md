@@ -23,22 +23,22 @@ Steps to download and set up Tiny6410's source code in Linux
     You might then have to close the terminal and reopen it.
     
 5) Go to /home/$MACHINE_NAME/mini6410/mini6410_Samsung-master and type in the follwoing	
-	cp config.txt /opt/FriendlyARM/mini6410/linux-2.6.38/
-	cd /opt/FriendlyARM/mini6410/linux-2.6.38/
-	mv config.txt .config
-	sudo apt-get install ncurses-dev
-    make
+	cp config.txt /opt/FriendlyARM/mini6410/linux-2.6.38/	<br>
+	cd /opt/FriendlyARM/mini6410/linux-2.6.38/	<br>
+	mv config.txt .config	<br>	
+	sudo apt-get install ncurses-dev	<br>
+        make			<br>
 	
 	If you have installed a 64 bit ubuntu, and as ARM11 is a 32 bit machine, you would have to install some additional libraries
 	Type in the following
-	sudo apt-get install lib32ncurses5
-	sudo apt-get install lib32z1
+	sudo apt-get install lib32ncurses5	<br>
+	sudo apt-get install lib32z1	<br>
 	
 6) Type in arm-linux-gcc -v and check if you can see the gcc version to ensure that you have installed the gcc crosscompiler properly
 
-7) Extract the examples files to the linux-2.6.38 folder
+7) Extract the examples files to the linux-2.6.38 folder	<br>
     tar -xvzf /home/$MACHINE_NAME/mini6410/examples-mini6410-20110104.tgz -C /opt/FriendlyARM/mini6410/linux-2.6.38/
     
-8) To view the kernel configuration file, navigate to the following location
+8) To view the kernel configuration file, navigate to the following location	<br>
     cd /opt/FriendlyARM/mini6410/linux-2.6.38/<br>
     Type in 'make menuconfig'
