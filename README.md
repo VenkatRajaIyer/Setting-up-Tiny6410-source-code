@@ -11,10 +11,10 @@ Steps to download and set up Tiny6410's source code in Linux
     Type in 'sudo su'
     
 3) Extract the downloaded packages into /opt directory. To do that, type in the following commands in th terminal.
-    tar -xvzf arm-linux-gcc-4.5.1-v6-vfp-20101103.tgz -C /
-    mkdir /opt/FriendlyARM/mini6410
-    mv /opt/FriendlyARM/toolschain /opt/FriendlyARM/mini6410
-    tar -xvzf linux-2.6.38-20110718.tar.gz -C /opt/FriendlyARM/mini6410/
+    tar -xvzf arm-linux-gcc-4.5.1-v6-vfp-20101103.tgz -C /	<br>
+    mkdir /opt/FriendlyARM/mini6410	<br>
+    mv /opt/FriendlyARM/toolschain /opt/FriendlyARM/mini6410	<br>
+    tar -xvzf linux-2.6.38-20110718.tar.gz -C /opt/FriendlyARM/mini6410/ 	<br>
 
 4) Type in 'gedit ~/.bashrc &' in the terminal
  
